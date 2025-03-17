@@ -1,4 +1,10 @@
+import Nav from './Nav';
+
 const Task = () => {
-  return <div>Task</div>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 };
 export default Task;
