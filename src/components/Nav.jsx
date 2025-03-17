@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <nav>
+    <nav className='navbar'>
       <h3>Kanban Board</h3>
     </nav>
   );
