@@ -14,7 +14,8 @@ import Comments from './components/Comments';
 const router = createBrowserRouter([
   { path: '/', element: <Login /> },
   { path: '/task', element: <Task /> },
-  { path: '/comments/:category/:id', element: <Comment /> },
+  { path: '/comments', element: <Comments /> },
+  { path: '/comments/:category/:id', element: <Comments /> },
 ]);
 
 createRoot(document.getElementById('root')).render(
